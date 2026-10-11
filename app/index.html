@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Verificador Offline GSMI</title>
+  <link rel="manifest" href="./manifest.json" />
+  <meta name="theme-color" content="#1F3864" />
+  <style>
+    :root { --ink:#1F2933; --blue:#1F3864; --line:#D9DEE7; --ok:#1e7a34; --bad:#b02a2a; --soft:#F4F6FA; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, Arial, sans-serif; color: var(--ink); max-width: 560px; margin: 0 auto; padding: 16px 16px 48px; background:#fff; }
+    h1 { font-size: 20px; color: var(--blue); margin: 4px 0 2px; }
+    h2 { font-size: 15px; color: var(--blue); margin: 24px 0 8px; }
+    p.lead { margin: 0 0 12px; font-size: 14px; color: #52606d; }
+    .status { display:inline-flex; align-items:center; gap:8px; padding:6px 12px; border-radius:999px; font-size:13px; font-weight:600; }
+    .status.online { background:#E7F4EA; color:var(--ok); }
+    .status.offline { background:#FCEFEA; color:var(--bad); }
+    .dot { width:9px; height:9px; border-radius:50%; background:currentColor; }
+    .card { border:1px solid var(--line); border-radius:12px; padding:14px; background:var(--soft); margin-top:12px; }
+    .card.ok { background:#E7F4EA; border-color:#9fd1ab; }
+    .card.error { background:#FCEFEA; border-color:#e3b0a5; }
+    .ok-title { color:var(--ok); font-weight:700; } .err-title { color:var(--bad); font-weight:700; }
+    table.kv { width:100%; border-collapse:collapse; margin-top:8px; font-size:14px; }
+    table.kv td { padding:4px 0; border-bottom:1px solid #d6e6da; } table.kv td:first-child { color:#52606d; width:42%; }
+    input[type=file] { width:100%; margin:8px 0; font-size:14px; }
+    #capture-canvas { display:none; }
+    .grid { display:grid; grid-template-columns: repeat(5, 1fr); gap:6px; }
+    .grid button { border:1px solid var(--line); background:#fff; border-radius:8px; padding:3px; cursor:pointer; }
+    .grid button:hover { border-color:var(--blue); }
+    .grid img { width:100%; display:block; image-rendering:pixelated; }
+    .scenario { font-size:12px; color:#52606d; margin:10px 0 4px; font-family: ui-monospace, monospace; }
+    ul.saved { list-style:none; padding:0; margin:0; font-size:13px; }
+    ul.saved li { padding:6px 0; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; gap:8px; }
+    a.link { color:var(--blue); font-size:14px; }
+    small.note { color:#7b8794; display:block; margin-top:6px; font-size:12px; }
+  </style>
+</head>
+<body>
+  <h1>Verificación offline — Guía Sanitaria de Movilización (GSMI)</h1>
+  <p class="lead">La decodificación del QR se ejecuta 100&nbsp;% en este dispositivo (Canvas + jsQR); no se realiza ninguna petición HTTP durante la verificación.</p>
+  <span id="net-status" class="status online"><span class="dot"></span><span id="net-text">En línea</span></span>
+
+  <h2>1. Capturar o seleccionar la guía</h2>
+  <input type="file" id="file-input" accept="image/*" capture="environment" />
+  <canvas id="capture-canvas"></canvas>
+  <div id="result"></div>
+
+  <h2>2. Guías de prueba (datos sintéticos)</h2>
+  <p class="lead">Toque una guía para verificarla sin necesidad de cámara. Las degradaciones reproducen los escenarios del experimento.</p>
+  <div id="gallery"></div>
+
+  <h2>3. Registros guardados en este dispositivo (IndexedDB)</h2>
+  <ul id="saved" class="saved"><li>Sin registros todavía.</li></ul>
+  <small class="note">Persistencia local con Storage API (IndexedDB): el archivo original y el valor decodificado quedan en el dispositivo.</small>
+
+  <h2>4. Resultados del experimento</h2>
+  <a class="link" href="./results.html">Abrir el visor de resultados &rarr;</a>
+
+  <script src="./lib/jsQR.js"></script>
+  <script src="./idb.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

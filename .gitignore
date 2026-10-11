@@ -1,0 +1,4 @@
+node_modules/
+data/degraded/
+results/latest/
+.DS_Store

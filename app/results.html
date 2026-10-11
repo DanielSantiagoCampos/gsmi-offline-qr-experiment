@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resultados — Verificación offline GSMI</title>
+  <style>
+    :root { --ink:#1F2933; --blue:#1F3864; --line:#D9DEE7; }
+    body { font-family: system-ui, Arial, sans-serif; color:var(--ink); max-width:860px; margin:0 auto; padding:16px 16px 48px; }
+    h1 { font-size:20px; color:var(--blue); } h2 { font-size:15px; color:var(--blue); margin-top:28px; }
+    .tabs button { padding:6px 12px; border:1px solid var(--line); background:#fff; border-radius:8px; cursor:pointer; margin-right:6px; }
+    .tabs button.active { background:var(--blue); color:#fff; border-color:var(--blue); }
+    table { border-collapse:collapse; width:100%; font-size:14px; margin-top:12px; }
+    th, td { padding:6px 8px; text-align:right; border-bottom:1px solid var(--line); } th:first-child, td:first-child { text-align:left; }
+    thead th { border-top:2px solid #000; border-bottom:2px solid #000; }
+    .bar { height:10px; background:#e5eaf3; border-radius:5px; min-width:80px; } .bar > i { display:block; height:100%; border-radius:5px; background:#2E5395; }
+    .meta { font-size:13px; color:#52606d; } a { color:var(--blue); }
+  </style>
+</head>
+<body>
+  <p><a href="./index.html">&larr; Volver al verificador</a></p>
+  <h1>Resultados del experimento</h1>
+  <p class="meta">60 guías sintéticas × 8 escenarios de degradación × 5 repeticiones de tiempo (2.400 mediciones). Tabla 2 del documento.</p>
+  <div class="tabs">
+    <button data-file="resultados_browser.json" class="active">Navegador (Chromium) — medición principal</button>
+    <button data-file="resultados_node.json">Node.js — verificación cruzada</button>
+  </div>
+  <div class="tabs" style="margin-top:8px">
+    <button data-set="reference" class="active">Referencia (reportada en el documento)</button>
+    <button data-set="latest">Última ejecución local</button>
+  </div>
+  <p id="info" class="meta"></p>
+  <table id="tbl"></table>
+  <script>
+    let file = "resultados_browser.json", set = "reference";
+    const fmt = (n) => String(n).replace(".", ",");
+    async function load() {
+      const info = document.getElementById("info"), tbl = document.getElementById("tbl");
+      try {
+        const rows = await (await fetch(`../results/${set}/${file}`)).json();
+        let ua = "";
+        if (file.includes("browser")) { try { ua = (await (await fetch(`../results/${set}/browser_info.json`)).json()).userAgent; } catch {} }
+        info.textContent = ua ? `Navegador: ${ua}` : "";
+        tbl.innerHTML = `<thead><tr><th>Escenario</th><th>Éxito (%)</th><th></th><th>Prom. (ms)</th><th>P50 (ms)</th><th>P95 (ms)</th><th>Mín. (ms)</th><th>Máx. (ms)</th></tr></thead><tbody>` +
+          rows.map((r) => `<tr><td>${r.scenario}</td><td>${fmt(r.tasa_exito_pct)}</td><td style="width:120px"><div class="bar"><i style="width:${r.tasa_exito_pct}%"></i></div></td><td>${fmt(r.tiempo_prom_ms)}</td><td>${fmt(r.tiempo_p50_ms)}</td><td>${fmt(r.tiempo_p95_ms)}</td><td>${fmt(r.tiempo_min_ms)}</td><td>${fmt(r.tiempo_max_ms)}</td></tr>`).join("") + "</tbody>";
+      } catch { info.textContent = set === "latest" ? "Aún no hay una ejecución local (npm run reproduce)." : "No se pudo cargar el archivo."; tbl.innerHTML = ""; }
+    }
+    document.querySelectorAll("[data-file]").forEach((b) => b.onclick = () => { file = b.dataset.file; document.querySelectorAll("[data-file]").forEach((x) => x.classList.toggle("active", x === b)); load(); });
+    document.querySelectorAll("[data-set]").forEach((b) => b.onclick = () => { set = b.dataset.set; document.querySelectorAll("[data-set]").forEach((x) => x.classList.toggle("active", x === b)); load(); });
+    load();
+  </script>
+</body>
+</html>

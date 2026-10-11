@@ -1,0 +1,482 @@
+[
+  {
+    "guide_id": "SYN-GSMI-0001-C03647",
+    "origin_code": "PRED-4474",
+    "destination_code": "PRED-5494",
+    "animal_count": 77,
+    "issue_date": "2026-07-01",
+    "checksum": "4AE8730D"
+  },
+  {
+    "guide_id": "SYN-GSMI-0002-98D32E",
+    "origin_code": "PRED-6029",
+    "destination_code": "PRED-1235",
+    "animal_count": 43,
+    "issue_date": "2026-07-15",
+    "checksum": "C62F8D52"
+  },
+  {
+    "guide_id": "SYN-GSMI-0003-618A17",
+    "origin_code": "PRED-9644",
+    "destination_code": "PRED-6056",
+    "animal_count": 80,
+    "issue_date": "2026-03-17",
+    "checksum": "510D07E5"
+  },
+  {
+    "guide_id": "SYN-GSMI-0004-9123B4",
+    "origin_code": "PRED-9482",
+    "destination_code": "PRED-8008",
+    "animal_count": 91,
+    "issue_date": "2026-02-10",
+    "checksum": "8FF4D884"
+  },
+  {
+    "guide_id": "SYN-GSMI-0005-6E6B58",
+    "origin_code": "PRED-7133",
+    "destination_code": "PRED-7583",
+    "animal_count": 39,
+    "issue_date": "2026-03-15",
+    "checksum": "00645820"
+  },
+  {
+    "guide_id": "SYN-GSMI-0006-6F9879",
+    "origin_code": "PRED-8979",
+    "destination_code": "PRED-8676",
+    "animal_count": 48,
+    "issue_date": "2026-06-17",
+    "checksum": "24878BDC"
+  },
+  {
+    "guide_id": "SYN-GSMI-0007-93EADE",
+    "origin_code": "PRED-9331",
+    "destination_code": "PRED-4249",
+    "animal_count": 92,
+    "issue_date": "2026-06-02",
+    "checksum": "839A322B"
+  },
+  {
+    "guide_id": "SYN-GSMI-0008-420185",
+    "origin_code": "PRED-4934",
+    "destination_code": "PRED-8485",
+    "animal_count": 34,
+    "issue_date": "2026-07-16",
+    "checksum": "D5A3FAFE"
+  },
+  {
+    "guide_id": "SYN-GSMI-0009-C4160A",
+    "origin_code": "PRED-6863",
+    "destination_code": "PRED-3886",
+    "animal_count": 26,
+    "issue_date": "2026-08-19",
+    "checksum": "99E71AA4"
+  },
+  {
+    "guide_id": "SYN-GSMI-0010-234AC3",
+    "origin_code": "PRED-9338",
+    "destination_code": "PRED-2623",
+    "animal_count": 82,
+    "issue_date": "2026-02-23",
+    "checksum": "7124C0F1"
+  },
+  {
+    "guide_id": "SYN-GSMI-0011-FA8EA5",
+    "origin_code": "PRED-2515",
+    "destination_code": "PRED-2881",
+    "animal_count": 43,
+    "issue_date": "2026-01-22",
+    "checksum": "617284C9"
+  },
+  {
+    "guide_id": "SYN-GSMI-0012-7AF197",
+    "origin_code": "PRED-8849",
+    "destination_code": "PRED-9124",
+    "animal_count": 41,
+    "issue_date": "2026-07-01",
+    "checksum": "A2C55CBD"
+  },
+  {
+    "guide_id": "SYN-GSMI-0013-257381",
+    "origin_code": "PRED-9129",
+    "destination_code": "PRED-9988",
+    "animal_count": 32,
+    "issue_date": "2026-02-09",
+    "checksum": "4AFD1CB3"
+  },
+  {
+    "guide_id": "SYN-GSMI-0014-9E9392",
+    "origin_code": "PRED-9628",
+    "destination_code": "PRED-2261",
+    "animal_count": 23,
+    "issue_date": "2026-08-18",
+    "checksum": "CF511525"
+  },
+  {
+    "guide_id": "SYN-GSMI-0015-E9EE37",
+    "origin_code": "PRED-6751",
+    "destination_code": "PRED-4787",
+    "animal_count": 47,
+    "issue_date": "2026-01-14",
+    "checksum": "D7614518"
+  },
+  {
+    "guide_id": "SYN-GSMI-0016-870E0D",
+    "origin_code": "PRED-6511",
+    "destination_code": "PRED-6424",
+    "animal_count": 51,
+    "issue_date": "2026-04-03",
+    "checksum": "06DAF40F"
+  },
+  {
+    "guide_id": "SYN-GSMI-0017-5F3A4A",
+    "origin_code": "PRED-7775",
+    "destination_code": "PRED-2579",
+    "animal_count": 17,
+    "issue_date": "2026-08-14",
+    "checksum": "1C41E5B6"
+  },
+  {
+    "guide_id": "SYN-GSMI-0018-409317",
+    "origin_code": "PRED-4007",
+    "destination_code": "PRED-3122",
+    "animal_count": 79,
+    "issue_date": "2026-07-04",
+    "checksum": "341869AA"
+  },
+  {
+    "guide_id": "SYN-GSMI-0019-EFF62F",
+    "origin_code": "PRED-2819",
+    "destination_code": "PRED-6277",
+    "animal_count": 93,
+    "issue_date": "2026-08-03",
+    "checksum": "D0639A9F"
+  },
+  {
+    "guide_id": "SYN-GSMI-0020-93C876",
+    "origin_code": "PRED-4180",
+    "destination_code": "PRED-1385",
+    "animal_count": 69,
+    "issue_date": "2026-02-09",
+    "checksum": "325FBF17"
+  },
+  {
+    "guide_id": "SYN-GSMI-0021-B4A1C5",
+    "origin_code": "PRED-8118",
+    "destination_code": "PRED-9555",
+    "animal_count": 56,
+    "issue_date": "2026-04-12",
+    "checksum": "45A723DC"
+  },
+  {
+    "guide_id": "SYN-GSMI-0022-3304F4",
+    "origin_code": "PRED-5148",
+    "destination_code": "PRED-1259",
+    "animal_count": 91,
+    "issue_date": "2026-07-05",
+    "checksum": "56038540"
+  },
+  {
+    "guide_id": "SYN-GSMI-0023-855A46",
+    "origin_code": "PRED-4014",
+    "destination_code": "PRED-2407",
+    "animal_count": 63,
+    "issue_date": "2026-03-16",
+    "checksum": "733923C3"
+  },
+  {
+    "guide_id": "SYN-GSMI-0024-82FC7C",
+    "origin_code": "PRED-5567",
+    "destination_code": "PRED-4264",
+    "animal_count": 28,
+    "issue_date": "2026-07-13",
+    "checksum": "11BEE0CD"
+  },
+  {
+    "guide_id": "SYN-GSMI-0025-363744",
+    "origin_code": "PRED-2261",
+    "destination_code": "PRED-5818",
+    "animal_count": 64,
+    "issue_date": "2026-04-12",
+    "checksum": "B7EF0FC6"
+  },
+  {
+    "guide_id": "SYN-GSMI-0026-6F2DBD",
+    "origin_code": "PRED-6553",
+    "destination_code": "PRED-4475",
+    "animal_count": 88,
+    "issue_date": "2026-05-08",
+    "checksum": "F7BE1C04"
+  },
+  {
+    "guide_id": "SYN-GSMI-0027-6B0D22",
+    "origin_code": "PRED-1282",
+    "destination_code": "PRED-6325",
+    "animal_count": 63,
+    "issue_date": "2026-02-15",
+    "checksum": "DA4E782D"
+  },
+  {
+    "guide_id": "SYN-GSMI-0028-6DC1EB",
+    "origin_code": "PRED-3836",
+    "destination_code": "PRED-8504",
+    "animal_count": 82,
+    "issue_date": "2026-02-03",
+    "checksum": "14489BC1"
+  },
+  {
+    "guide_id": "SYN-GSMI-0029-377226",
+    "origin_code": "PRED-6909",
+    "destination_code": "PRED-1482",
+    "animal_count": 9,
+    "issue_date": "2026-03-14",
+    "checksum": "77AFDF8A"
+  },
+  {
+    "guide_id": "SYN-GSMI-0030-2BB42A",
+    "origin_code": "PRED-8351",
+    "destination_code": "PRED-5478",
+    "animal_count": 19,
+    "issue_date": "2026-05-04",
+    "checksum": "B5C1CA27"
+  },
+  {
+    "guide_id": "SYN-GSMI-0031-D34655",
+    "origin_code": "PRED-5523",
+    "destination_code": "PRED-2672",
+    "animal_count": 32,
+    "issue_date": "2026-08-18",
+    "checksum": "ED250B0E"
+  },
+  {
+    "guide_id": "SYN-GSMI-0032-54B7FD",
+    "origin_code": "PRED-7649",
+    "destination_code": "PRED-4177",
+    "animal_count": 93,
+    "issue_date": "2026-03-02",
+    "checksum": "9FECB956"
+  },
+  {
+    "guide_id": "SYN-GSMI-0033-146FE7",
+    "origin_code": "PRED-4800",
+    "destination_code": "PRED-5162",
+    "animal_count": 10,
+    "issue_date": "2026-07-20",
+    "checksum": "CC8C4769"
+  },
+  {
+    "guide_id": "SYN-GSMI-0034-ACE9DB",
+    "origin_code": "PRED-1434",
+    "destination_code": "PRED-8243",
+    "animal_count": 91,
+    "issue_date": "2026-08-26",
+    "checksum": "53CE9139"
+  },
+  {
+    "guide_id": "SYN-GSMI-0035-D755A3",
+    "origin_code": "PRED-1740",
+    "destination_code": "PRED-1135",
+    "animal_count": 71,
+    "issue_date": "2026-01-26",
+    "checksum": "6273D6EB"
+  },
+  {
+    "guide_id": "SYN-GSMI-0036-365D7E",
+    "origin_code": "PRED-2965",
+    "destination_code": "PRED-1381",
+    "animal_count": 37,
+    "issue_date": "2026-05-23",
+    "checksum": "DFE28EE5"
+  },
+  {
+    "guide_id": "SYN-GSMI-0037-F436B2",
+    "origin_code": "PRED-7095",
+    "destination_code": "PRED-8595",
+    "animal_count": 7,
+    "issue_date": "2026-01-25",
+    "checksum": "E916C907"
+  },
+  {
+    "guide_id": "SYN-GSMI-0038-F091D3",
+    "origin_code": "PRED-9774",
+    "destination_code": "PRED-5406",
+    "animal_count": 18,
+    "issue_date": "2026-08-04",
+    "checksum": "FE127C64"
+  },
+  {
+    "guide_id": "SYN-GSMI-0039-F23E05",
+    "origin_code": "PRED-6916",
+    "destination_code": "PRED-2828",
+    "animal_count": 46,
+    "issue_date": "2026-07-05",
+    "checksum": "9DFF3440"
+  },
+  {
+    "guide_id": "SYN-GSMI-0040-5A5383",
+    "origin_code": "PRED-2419",
+    "destination_code": "PRED-2252",
+    "animal_count": 59,
+    "issue_date": "2026-02-22",
+    "checksum": "21B985F3"
+  },
+  {
+    "guide_id": "SYN-GSMI-0041-768C91",
+    "origin_code": "PRED-5766",
+    "destination_code": "PRED-8698",
+    "animal_count": 75,
+    "issue_date": "2026-04-13",
+    "checksum": "7FB9B9C6"
+  },
+  {
+    "guide_id": "SYN-GSMI-0042-ABB5F7",
+    "origin_code": "PRED-7960",
+    "destination_code": "PRED-5645",
+    "animal_count": 98,
+    "issue_date": "2026-01-11",
+    "checksum": "6670A9FF"
+  },
+  {
+    "guide_id": "SYN-GSMI-0043-F70A0B",
+    "origin_code": "PRED-3107",
+    "destination_code": "PRED-4910",
+    "animal_count": 39,
+    "issue_date": "2026-07-18",
+    "checksum": "215A011E"
+  },
+  {
+    "guide_id": "SYN-GSMI-0044-F8C8CC",
+    "origin_code": "PRED-4033",
+    "destination_code": "PRED-6595",
+    "animal_count": 8,
+    "issue_date": "2026-01-27",
+    "checksum": "F4BB57F0"
+  },
+  {
+    "guide_id": "SYN-GSMI-0045-44BE0D",
+    "origin_code": "PRED-6416",
+    "destination_code": "PRED-5245",
+    "animal_count": 91,
+    "issue_date": "2026-01-25",
+    "checksum": "495E4021"
+  },
+  {
+    "guide_id": "SYN-GSMI-0046-3B8C1E",
+    "origin_code": "PRED-8096",
+    "destination_code": "PRED-2514",
+    "animal_count": 63,
+    "issue_date": "2026-01-03",
+    "checksum": "556399BB"
+  },
+  {
+    "guide_id": "SYN-GSMI-0047-C0525B",
+    "origin_code": "PRED-5680",
+    "destination_code": "PRED-7918",
+    "animal_count": 53,
+    "issue_date": "2026-01-05",
+    "checksum": "133A656C"
+  },
+  {
+    "guide_id": "SYN-GSMI-0048-08A735",
+    "origin_code": "PRED-7908",
+    "destination_code": "PRED-5772",
+    "animal_count": 74,
+    "issue_date": "2026-07-17",
+    "checksum": "9F5631FA"
+  },
+  {
+    "guide_id": "SYN-GSMI-0049-F1B3AA",
+    "origin_code": "PRED-5807",
+    "destination_code": "PRED-4089",
+    "animal_count": 14,
+    "issue_date": "2026-01-19",
+    "checksum": "315544BE"
+  },
+  {
+    "guide_id": "SYN-GSMI-0050-27D863",
+    "origin_code": "PRED-3398",
+    "destination_code": "PRED-3604",
+    "animal_count": 46,
+    "issue_date": "2026-02-16",
+    "checksum": "6E5210B9"
+  },
+  {
+    "guide_id": "SYN-GSMI-0051-5B44FC",
+    "origin_code": "PRED-3715",
+    "destination_code": "PRED-1780",
+    "animal_count": 85,
+    "issue_date": "2026-06-16",
+    "checksum": "3FDF63BB"
+  },
+  {
+    "guide_id": "SYN-GSMI-0052-400608",
+    "origin_code": "PRED-2314",
+    "destination_code": "PRED-1802",
+    "animal_count": 83,
+    "issue_date": "2026-06-23",
+    "checksum": "BCDE90AC"
+  },
+  {
+    "guide_id": "SYN-GSMI-0053-993A1A",
+    "origin_code": "PRED-8646",
+    "destination_code": "PRED-4907",
+    "animal_count": 49,
+    "issue_date": "2026-04-20",
+    "checksum": "67CA4939"
+  },
+  {
+    "guide_id": "SYN-GSMI-0054-2426B3",
+    "origin_code": "PRED-1900",
+    "destination_code": "PRED-1878",
+    "animal_count": 58,
+    "issue_date": "2026-02-15",
+    "checksum": "A4EFB427"
+  },
+  {
+    "guide_id": "SYN-GSMI-0055-4C2688",
+    "origin_code": "PRED-9002",
+    "destination_code": "PRED-3357",
+    "animal_count": 27,
+    "issue_date": "2026-03-07",
+    "checksum": "A82F41BC"
+  },
+  {
+    "guide_id": "SYN-GSMI-0056-1B7B73",
+    "origin_code": "PRED-2595",
+    "destination_code": "PRED-5720",
+    "animal_count": 9,
+    "issue_date": "2026-08-04",
+    "checksum": "FD8D0186"
+  },
+  {
+    "guide_id": "SYN-GSMI-0057-D4336E",
+    "origin_code": "PRED-3176",
+    "destination_code": "PRED-1341",
+    "animal_count": 97,
+    "issue_date": "2026-03-01",
+    "checksum": "344419B4"
+  },
+  {
+    "guide_id": "SYN-GSMI-0058-D3F7DD",
+    "origin_code": "PRED-7542",
+    "destination_code": "PRED-2535",
+    "animal_count": 71,
+    "issue_date": "2026-06-07",
+    "checksum": "B37A2E60"
+  },
+  {
+    "guide_id": "SYN-GSMI-0059-BA8ADC",
+    "origin_code": "PRED-2202",
+    "destination_code": "PRED-3992",
+    "animal_count": 45,
+    "issue_date": "2026-04-20",
+    "checksum": "3016A65A"
+  },
+  {
+    "guide_id": "SYN-GSMI-0060-F7921E",
+    "origin_code": "PRED-3361",
+    "destination_code": "PRED-2084",
+    "animal_count": 93,
+    "issue_date": "2026-07-11",
+    "checksum": "CE76F676"
+  }
+]

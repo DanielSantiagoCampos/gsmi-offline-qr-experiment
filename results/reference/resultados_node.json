@@ -1,0 +1,98 @@
+[
+  {
+    "scenario": "clean",
+    "n_imagenes": 60,
+    "n_mediciones": 300,
+    "tasa_exito_pct": 100,
+    "coincidencias_incorrectas": 0,
+    "tiempo_prom_ms": 13.859,
+    "tiempo_p50_ms": 12.657,
+    "tiempo_p95_ms": 22.376,
+    "tiempo_min_ms": 11.298,
+    "tiempo_max_ms": 68.775
+  },
+  {
+    "scenario": "rotate_15",
+    "n_imagenes": 60,
+    "n_mediciones": 300,
+    "tasa_exito_pct": 100,
+    "coincidencias_incorrectas": 0,
+    "tiempo_prom_ms": 24.809,
+    "tiempo_p50_ms": 23.728,
+    "tiempo_p95_ms": 37.323,
+    "tiempo_min_ms": 20.268,
+    "tiempo_max_ms": 57.916
+  },
+  {
+    "scenario": "blur_light",
+    "n_imagenes": 60,
+    "n_mediciones": 300,
+    "tasa_exito_pct": 100,
+    "coincidencias_incorrectas": 0,
+    "tiempo_prom_ms": 16.2,
+    "tiempo_p50_ms": 15.268,
+    "tiempo_p95_ms": 24.256,
+    "tiempo_min_ms": 12.536,
+    "tiempo_max_ms": 35.98
+  },
+  {
+    "scenario": "blur_medium",
+    "n_imagenes": 60,
+    "n_mediciones": 300,
+    "tasa_exito_pct": 58.3,
+    "coincidencias_incorrectas": 0,
+    "tiempo_prom_ms": 23.25,
+    "tiempo_p50_ms": 19.413,
+    "tiempo_p95_ms": 38.653,
+    "tiempo_min_ms": 13.333,
+    "tiempo_max_ms": 76.834
+  },
+  {
+    "scenario": "blur_heavy",
+    "n_imagenes": 60,
+    "n_mediciones": 300,
+    "tasa_exito_pct": 0,
+    "coincidencias_incorrectas": 0,
+    "tiempo_prom_ms": 30.281,
+    "tiempo_p50_ms": 29.001,
+    "tiempo_p95_ms": 41.077,
+    "tiempo_min_ms": 24.162,
+    "tiempo_max_ms": 57.436
+  },
+  {
+    "scenario": "low_res",
+    "n_imagenes": 60,
+    "n_mediciones": 300,
+    "tasa_exito_pct": 100,
+    "coincidencias_incorrectas": 0,
+    "tiempo_prom_ms": 16.802,
+    "tiempo_p50_ms": 16.079,
+    "tiempo_p95_ms": 22.728,
+    "tiempo_min_ms": 13.092,
+    "tiempo_max_ms": 28.868
+  },
+  {
+    "scenario": "low_contrast",
+    "n_imagenes": 60,
+    "n_mediciones": 300,
+    "tasa_exito_pct": 100,
+    "coincidencias_incorrectas": 0,
+    "tiempo_prom_ms": 16.03,
+    "tiempo_p50_ms": 15.337,
+    "tiempo_p95_ms": 22.131,
+    "tiempo_min_ms": 13.561,
+    "tiempo_max_ms": 26.392
+  },
+  {
+    "scenario": "worst_case",
+    "n_imagenes": 60,
+    "n_mediciones": 300,
+    "tasa_exito_pct": 0,
+    "coincidencias_incorrectas": 0,
+    "tiempo_prom_ms": 13.934,
+    "tiempo_p50_ms": 13.491,
+    "tiempo_p95_ms": 19.573,
+    "tiempo_min_ms": 10.651,
+    "tiempo_max_ms": 29.609
+  }
+]
